@@ -160,7 +160,7 @@ export default function DeepBaySeminarLuxuryLP() {
       <div className="sticky top-0 z-40 border-b border-amber-400/15 bg-black/70 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-2">
           <div className="flex items-center gap-2">
-            <Gem className="h-5 w-5 text-amber-400" />
+            <img src="/favicon.png" alt="DeepBay" className="h-5 w-5 object-contain" />
             <span className="text-xs text-slate-300"> 9月1日〜7日 集中ライブ</span>
           </div>
           <div className="hidden items-center gap-4 md:flex">
@@ -1014,11 +1014,21 @@ export default function DeepBaySeminarLuxuryLP() {
                 </CardHeader>
                 <CardContent className="text-slate-300 text-sm">
                   <ol className="ml-4 list-decimal space-y-1">
-                    <li>Beeにアクセス</li>
+                    <li>
+                      <a href="https://bee-marketing.xyz/#/" target="_blank" rel="noopener noreferrer" className="text-amber-300 underline underline-offset-4 hover:text-amber-200">
+                        Beeにアクセス
+                      </a>
+                    </li>
                     <li>新規登録 → メールアドレス入力</li>
                     <li>eBayアカウントと連携</li>
                   </ol>
                   <p className="mt-2 text-xs text-slate-500">重要：DeepBayの利用にはBeeの登録が必須です。</p>
+                  <p className="mt-1 text-xs text-slate-500">
+                    登録マニュアル：
+                    <a href="https://bee-information.com/manual-standard/" target="_blank" rel="noopener noreferrer" className="ml-1 text-amber-300 underline hover:text-amber-200">
+                      こちら
+                    </a>
+                  </p>
                 </CardContent>
               </Card>
 
@@ -1030,7 +1040,11 @@ export default function DeepBaySeminarLuxuryLP() {
                 </CardHeader>
                 <CardContent className="text-slate-300 text-sm">
                   <ol className="ml-4 list-decimal space-y-1">
-                    <li>DeepBayにアクセス</li>
+                    <li>
+                      <a href="https://deepbay.app/#/" target="_blank" rel="noopener noreferrer" className="text-amber-300 underline underline-offset-4 hover:text-amber-200">
+                        DeepBayにアクセス
+                      </a>
+                    </li>
                     <li>Beeのアカウントでログイン</li>
                     <li>初回セットアップを完了</li>
                   </ol>
