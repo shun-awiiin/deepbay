@@ -247,10 +247,10 @@ export default function DeepBaySeminarLuxuryLP() {
               }}
             />
             <h2 className="text-4xl font-bold text-slate-50 md:text-5xl" style={serifStyle}>
-              Exclusive Seminar Series
+              Exclusive Seminar
             </h2>
             <p className="mx-auto mt-4 max-w-3xl text-slate-400">
-              DeepBayの全貌と移行戦略を、2部構成で徹底解説。参加費無料・録画配信あり。
+              DeepBayの全貌を、徹底解説。参加費無料・アーカイブ配信数日間あり。
             </p>
           </div>
 
@@ -276,15 +276,15 @@ export default function DeepBaySeminarLuxuryLP() {
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <Star className="mr-2 mt-1 h-5 w-5 text-amber-400" />
-                    {"DeepBayの全機能・永久割引のご案内"}
+                    {"DeepBayの全機能のご案内"}
                   </li>
                   <li className="flex items-start">
                     <Star className="mr-2 mt-1 h-5 w-5 text-amber-400" />
-                    {"従来ツールからの完全移行ガイド・Q&A"}
+                    {"従来ツールの徹底比較・Q&A"}
                   </li>
                   <li className="flex items-start">
                     <Star className="mr-2 mt-1 h-5 w-5 text-amber-400" />
-                    {"ベストプラクティスと初期設定講座"}
+                    {"ベストプラクティス講座"}
                   </li>
                 </ul>
               </CardContent>
@@ -311,15 +311,15 @@ export default function DeepBaySeminarLuxuryLP() {
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <Star className="mr-2 mt-1 h-5 w-5 text-amber-400" />
-                    {"高度在庫（優先・最優先・積み上げ）"}
+                    {"DeepBayの全機能のご案内"}
                   </li>
                   <li className="flex items-start">
                     <Star className="mr-2 mt-1 h-5 w-5 text-amber-400" />
-                    {"Bee連携／AIリサーチ活用／効率化設計"}
+                    {"従来ツールの徹底比較・Q&A"}
                   </li>
                   <li className="flex items-start">
                     <Star className="mr-2 mt-1 h-5 w-5 text-amber-400" />
-                    {"成功事例共有と質疑応答"}
+                    {"ベストプラクティス講座"}
                   </li>
                 </ul>
               </CardContent>
@@ -438,7 +438,7 @@ export default function DeepBaySeminarLuxuryLP() {
                 </p>
                 <p className="flex items-center font-medium">
                   <CheckCircle2 className="mr-2 h-5 w-5 text-amber-400" />
-                  {"プロ：150回/月"}
+                  {"ハイスタンダード：150回/月"}
                 </p>
                 <p className="flex items-center font-medium">
                   <CheckCircle2 className="mr-2 h-5 w-5 text-amber-400" />
@@ -450,11 +450,11 @@ export default function DeepBaySeminarLuxuryLP() {
                 </p>
                 <p className="flex items-center font-medium">
                   <CheckCircle2 className="mr-2 h-5 w-5 text-amber-400" />
-                  {"27日経過許可：標準搭載"}
+                  {"27日経過許可：在庫管理オプション標準搭載"}
                 </p>
                 <p className="flex items-center font-medium">
                   <CheckCircle2 className="mr-2 h-5 w-5 text-amber-400" />
-                  {"アカウント紐付け：完全無料"}
+                  {"追加サイト数拡大：無料"}
                 </p>
               </CardContent>
             </Card>
@@ -473,7 +473,7 @@ export default function DeepBaySeminarLuxuryLP() {
               <TableBody>
                 {[
                   { plan: "スタンダード", legacy: "50回", deepbay: "100回", rate: "200%程度" },
-                  { plan: "プロ", legacy: "100回", deepbay: "150回", rate: "150%程度" },
+                  { plan: "ハイスタンダード", legacy: "100回", deepbay: "150回", rate: "150%程度" },
                   { plan: "プレミアム", legacy: "300回", deepbay: "600回", rate: "200%程度" },
                   { plan: "アンカー（抽出）", legacy: "600件", deepbay: "800件", rate: "133%程度" },
                 ].map((r) => (
@@ -496,10 +496,10 @@ export default function DeepBaySeminarLuxuryLP() {
         <section>
           <div className="mb-10 text-center">
             <h2 className="text-4xl font-bold text-slate-50 md:text-5xl" style={serifStyle}>
-              価値の再定義：よく有料の機能を標準化
+              価値の再定義：有料の機能を標準化
             </h2>
             <p className="mx-auto mt-3 max-w-3xl text-slate-400">
-              27日経過許可・高度在庫管理・複数アカウント解放など、一般的に有料のことが多い機能を標準搭載。
+              27日経過許可・高度在庫管理など、一般的に有料のことが多い機能を標準搭載。
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-3">
@@ -544,7 +544,6 @@ export default function DeepBaySeminarLuxuryLP() {
                 <ul className="ml-4 list-disc space-y-1">
                   <li>ウォッチ付き商品は1日2〜3回など複数回の在庫管理に対応</li>
                   <li>出品日数・ビュー数・ウォッチ数等で優先対象を自動リスト化</li>
-                  <li>ベータ上限：全アカウント合計で最大1,000品を管理</li>
                 </ul>
               </CardContent>
             </Card>
@@ -625,7 +624,7 @@ export default function DeepBaySeminarLuxuryLP() {
                 <ul className="grid gap-2 sm:grid-cols-2">
                   <li className="flex items-start">
                     <CheckCircle2 className="mr-2 mt-1 h-5 w-5 text-amber-400" />
-                    9サイト対応：メルカリ／ヤフオク／楽天／オフモール／ベクターパーク／ブランドオフ／トレファク／スニーカーダンク／Qoo10
+                    18サイト対応：メルカリ／ヤフオク／楽天／オフモール／駿河屋/ラクマ/デジマート/ベクトルーパーク／ブランドオフ／トレファク／スニーカーダンク／ヨドバシカメラ/モノタロウ/
                   </li>
                   <li className="flex items-start">
                     <CheckCircle2 className="mr-2 mt-1 h-5 w-5 text-amber-400" />
@@ -735,11 +734,11 @@ export default function DeepBaySeminarLuxuryLP() {
                   <div>
                     <p className="font-semibold">基本設定</p>
                     <p className="text-sm text-slate-400">
-                      在庫管理 ＞ 設定。対象セラー選択、在庫管理を有効化（全アカウント合計1000品まで）。
+                      在庫管理 ＞ 設定。対象セラー選択、在庫管理を有効化
                     </p>
                   </div>
                   <div>
-                    <p className="font-semibold">1. ソールド積み上げ</p>
+                    <p className="font-semibold">1. Sold積み上げ</p>
                     <ul className="ml-4 list-disc space-y-1">
                       <li>有効：販売後も在庫0で維持（SEO効果）</li>
                       <li>無効：販売後に自動削除（通常運用）</li>
@@ -783,7 +782,7 @@ export default function DeepBaySeminarLuxuryLP() {
                     </ol>
                   </div>
                   <div>
-                    <p className="font-semibold">3. 最優先在庫管理（近日）</p>
+                    <p className="font-semibold">3. 最優先在庫管理</p>
                     <p className="text-sm text-slate-400">
                       対象商品のチェック頻度を細かく設定（例：プロモ品は1日5回、通常は1日1回）。
                     </p>
@@ -809,7 +808,7 @@ export default function DeepBaySeminarLuxuryLP() {
                     <li>カテゴリー：eBayカテゴリーID</li>
                     <li>出品セラー：メインアカウント</li>
                     <li>タイプ：抽出／出品</li>
-                    <li>稼働：ON、出品数：10–20品／回、実行時間：深夜推奨</li>
+                    <li>稼働：ON、出品数：100品／回、実行時間：深夜推奨</li>
                   </ul>
                   <p className="text-sm text-slate-400">自動一括タグが付与され、抽出管理で識別可能。</p>
                 </CardContent>
@@ -829,7 +828,6 @@ export default function DeepBaySeminarLuxuryLP() {
                 <p className="font-semibold text-amber-300">Bee連携</p>
                 <ul className="ml-4 mt-2 list-disc space-y-1 text-slate-300">
                   <li>アクティブレポート自動取得（手動アップロード不要）</li>
-                  <li>価格表示連携：Bee側に販売価格が自動表示</li>
                   <li>取り下げ候補支援：不要商品の自動提案</li>
                 </ul>
               </div>
@@ -837,7 +835,7 @@ export default function DeepBaySeminarLuxuryLP() {
                 <p className="font-semibold text-amber-300">Specifics In 連携（開発中）</p>
                 <ul className="ml-4 mt-2 list-disc space-y-1 text-slate-300">
                   <li>CSV不要の直接連携</li>
-                  <li>リアルタイム同期でエラー率低減</li>
+          
                 </ul>
               </div>
             </CardContent>
@@ -860,17 +858,12 @@ export default function DeepBaySeminarLuxuryLP() {
               </CardHeader>
               <CardContent className="space-y-5 px-6 pb-8 text-slate-200 text-base md:px-8 md:text-lg">
                 <div>
-                  <p className="font-semibold text-amber-300">ベータ期間特典</p>
-                  <ul className="ml-5 mt-2 list-disc space-y-1">
-                    <li>全機能無料</li>
-                    <li>在庫管理1000品まで対応</li>
-                    <li>9サイトからの抽出対応</li>
-                  </ul>
+                 
                 </div>
                 <div>
                   <p className="font-semibold text-amber-300">正式リリース（予定）</p>
                   <ul className="ml-5 mt-2 list-disc space-y-1">
-                    <li>既存水準と同等以下の価格</li>
+                    <li>既存水準と同等の価格なのに価値向上</li>
                     <li>無料版も継続（既存無料相当の機能を維持予定）</li>
                     <li>プレミアム：対応サイト 最大16〜18サイト</li>
                     <li>アンカー：抽出上限 800件／依頼</li>
@@ -914,18 +907,10 @@ export default function DeepBaySeminarLuxuryLP() {
                   </AccordionItem>
                   <AccordionItem value="f4" className="overflow-hidden rounded-lg border border-slate-800">
                     <AccordionTrigger className="px-4 py-3 text-left font-semibold hover:no-underline">
-                      eBay連携が切れる問題は？
-                    </AccordionTrigger>
-                    <AccordionContent className="px-4 pb-4 text-slate-400">
-                      使用頻度等により発生する場合があります。対処法を検討中で、ライブで最新情報をご案内します。
-                    </AccordionContent>
-                  </AccordionItem>
-                  <AccordionItem value="f5" className="overflow-hidden rounded-lg border border-slate-800">
-                    <AccordionTrigger className="px-4 py-3 text-left font-semibold hover:no-underline">
                       従来ツールとの併用は可能？
                     </AccordionTrigger>
                     <AccordionContent className="px-4 pb-4 text-slate-400">
-                      物理的には可能ですが予期せぬ挙動のリスクあり。テストはサブアカウントでの利用を推奨します。
+                      物理的には可能ですが予期せぬ挙動のリスクあり。
                     </AccordionContent>
                   </AccordionItem>
                 </Accordion>
@@ -943,9 +928,7 @@ export default function DeepBaySeminarLuxuryLP() {
               </CardHeader>
               <CardContent className="space-y-2 text-slate-300">
                 <ul className="ml-4 list-disc space-y-1">
-                  <li>DeepBay（DEEP eBay）のアカウント作成とログイン</li>
-                  <li>サブアカウントでのテスト運用</li>
-                  <li>危険セラー・危険単語のCSVを準備（移行用）</li>
+                  <li>DeepBayのアカウント作成とログイン</li>                  
                   <li>9/1〜9/7のライブ日程をカレンダーに追加</li>
                 </ul>
                 <p className="text-xs text-slate-500">不安点はライブまたは個別ミーティングで解消しましょう。</p>
@@ -962,9 +945,7 @@ export default function DeepBaySeminarLuxuryLP() {
                 <p>移行や運用設計の不安に、個別でお応えします（9月限定）。</p>
                 <Dialog open={consultOpen} onOpenChange={setConsultOpen}>
                   <DialogTrigger asChild>
-                    <Button className="mt-3 rounded-full bg-amber-400 px-8 py-6 font-bold text-black hover:bg-amber-300">
-                      個別相談を申し込む
-                    </Button>
+                   
                   </DialogTrigger>
                   <ConsultDialogContent isPending={isPending} formAction={formAction} state={state} />
                 </Dialog>
@@ -975,7 +956,7 @@ export default function DeepBaySeminarLuxuryLP() {
         </section>
 
         {/* Campaign */}
-        <section className="relative overflow-hidden rounded-2xl border border-amber-400/40 bg-zinc-900 p-10">
+        {/* <section className="relative overflow-hidden rounded-2xl border border-amber-400/40 bg-zinc-900 p-10">
           <div className="pointer-events-none absolute -right-10 -top-10 opacity-20">
             <Gem className="h-40 w-40 text-amber-400" />
           </div>
@@ -1011,7 +992,7 @@ export default function DeepBaySeminarLuxuryLP() {
               <p className="mt-3 text-xs tracking-widest text-slate-500">完全移行サポート・30日間返金保証</p>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* Testimonials */}
         <section>
@@ -1035,7 +1016,7 @@ export default function DeepBaySeminarLuxuryLP() {
               },
               {
                 name: "Y.T.（福岡県）",
-                quote: "永久割引と標準機能化で、トータルコストが確実に下がりました。移行して正解でした。",
+                quote: "標準機能化で、トータルコストが確実に下がりました。移行して正解でした。",
               },
             ].map((t) => (
               <Card key={t.name} className="overflow-hidden border-slate-800 bg-zinc-900/60">
@@ -1082,7 +1063,7 @@ export default function DeepBaySeminarLuxuryLP() {
               </Button>
             </a>
           </div>
-          <p className="mt-4 text-xs tracking-widest text-slate-500">9/30まで永久割引・録画配信あり</p>
+          <p className="mt-4 text-xs tracking-widest text-slate-500">アーカイブ配信数日間あり</p>
         </section>
       </main>
 
@@ -1092,8 +1073,8 @@ export default function DeepBaySeminarLuxuryLP() {
           <p>&copy; 2025 DeepBay. The Next Generation Platform.</p>
           <p className="mt-1 text-sm">
             お問い合わせ:{" "}
-            <a href="mailto:support@deepbay.jp" className="text-amber-400 hover:text-amber-300">
-              support@deepbay.jp
+            <a href="mailto:info@awiiin.com" className="text-amber-400 hover:text-amber-300">
+            info@awiiin.com
             </a>
           </p>
         </div>
