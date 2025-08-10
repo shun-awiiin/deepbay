@@ -641,7 +641,7 @@ export default function DeepBaySeminarLuxuryLP() {
                   </li>
                   <li className="flex items-start">
                     <CheckCircle2 className="mr-2 mt-1 h-5 w-5 text-amber-400" />
-                    Bee（旧BayChat）連携：シームレス統合
+                    Bee連携：シームレス統合
                   </li>
                 </ul>
               </CardContent>
@@ -658,7 +658,7 @@ export default function DeepBaySeminarLuxuryLP() {
               </CardHeader>
               <CardContent className="space-y-4 text-slate-300">
                 <div>
-                  <p className="font-semibold text-amber-300">Step 1: Bee（旧BayChat）登録</p>
+                  <p className="font-semibold text-amber-300">Step 1: Bee登録</p>
                   <ol className="ml-4 list-decimal space-y-1">
                     <li>Beeにアクセス</li>
                     <li>新規登録 → メールアドレス入力</li>
@@ -826,7 +826,7 @@ export default function DeepBaySeminarLuxuryLP() {
             </CardHeader>
             <CardContent className="grid items-start gap-6 md:grid-cols-2">
               <div>
-                <p className="font-semibold text-amber-300">Bee（旧BayChat）連携</p>
+                <p className="font-semibold text-amber-300">Bee連携</p>
                 <ul className="ml-4 mt-2 list-disc space-y-1 text-slate-300">
                   <li>アクティブレポート自動取得（手動アップロード不要）</li>
                   <li>価格表示連携：Bee側に販売価格が自動表示</li>
