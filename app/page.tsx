@@ -389,7 +389,7 @@ export default function DeepBaySeminarLuxuryLP() {
                 </p>
                 <p className="flex items-center font-medium">
                   <CheckCircle2 className="mr-2 h-5 w-5 text-amber-400" />
-                  {"プレミアム：600回/月（従来比2倍の目安）"}
+                  {"プレミアム・アンカー：600回/月"}
                 </p>
                 <p className="flex items-center font-medium">
                   <CheckCircle2 className="mr-2 h-5 w-5 text-amber-400" />
@@ -421,7 +421,7 @@ export default function DeepBaySeminarLuxuryLP() {
                 {[
                   { plan: "スタンダード", legacy: "50回", deepbay: "100回", rate: "200%程度" },
                   { plan: "ハイスタンダード", legacy: "100回", deepbay: "150回", rate: "150%程度" },
-                  { plan: "プレミアム", legacy: "300回", deepbay: "600回", rate: "200%程度" },
+                  { plan: "プレミアム・アンカー", legacy: "300回", deepbay: "600回", rate: "200%程度" },
                   { plan: "アンカー（抽出）", legacy: "600件", deepbay: "800件", rate: "133%程度" },
                 ].map((r) => (
                   <TableRow key={r.plan} className="border-b border-slate-800 last:border-b-0">
